@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class MethodsDemo {
     static final String REPO_EP = "https://api.github.com/user/repos";
-    static final String TOKEN = "fake-token";
+    static final String TOKEN = "mock-token";
 
     @Test(description = "Create a repo with POST")
     void postTest() {
